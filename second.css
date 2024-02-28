@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(227, 184, 245);
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 0px 50px;
+}
+
+#child1{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    
+
+    
+    
+}
+#child2{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#child3{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+}
+#nav h3{
+    font-size: 16px;
+    border: 3px solid black;
+    padding: 2px;
+    border-radius: 50px;
+}
+#nav i{
+    font-size: 16px;
+    border: 3px solid black;
+    padding: 2px;
+    border-radius: 50px;
+    
+}
+#nav h1{
+    font-size: 22px;
+    border: 3px solid black;
+    padding: 2px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+#nav button {
+    font-size: 16px;
+    border: 3px solid black;
+    padding: 2px;
+    border-radius: 50px;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        overflow: hidden;      
+}
+#back{
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+#bgimg{
+    height: 100%;
+   width: 100%;
+  
+}
+#page2{
+    
+    height: 100%;
+    width: 100%;
+    background-color:rgb(207, 178, 235);
+    overflow: hidden;      
+}
+#namw{
+    text-transform: uppercase;
+    text-align: center;
+font-size: 150px;
+    width: 100%;
+}
+#des{
+    text-transform: uppercase;
+    text-align: center;
+font-size: 20px;
+    width: 20%;
+}
+#p2{
+   max-width: 833px;
+   height: 399px;
+   margin: 0;
+   width: 266px;
+}
+#align{
+    text-align: center;
+    justify-content: center;
+    
+
+}
+#page3{
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgb(116, 111, 111);
+    overflow: hidden;      
+}
+#namm{
+    text-transform: uppercase;
+    text-align: center;
+font-size: 150px;
+    width: 100%;
+}
+#p3{
+   max-width: 533px;
+   height: 370px;
+   margin: 0;
+   width: 247px;
+}
+#page4{
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgb(185, 243, 244);
+    overflow: hidden;      
+}
+#namk{
+    text-transform: uppercase;
+    text-align: center;
+font-size: 150px;
+    width: 100%;
+}
+#p4{
+   max-width: 853px;
+   height: 370px;
+   margin: 0;
+   width: 247px;
+}
+#page5{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(220, 176, 176);
+    color: aliceblue;
+    overflow: hidden;  
+}
+#p5{
+    text-transform: uppercase;
+    text-align: center;
+font-size: 50px;
+    width: 50%;
+}
+#texta{
+    text-align: center;
+    
+}
+#btm-left{
+    color: black;
+    background-color: rgb(227, 184, 245);
+    font-size: 17px;
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+ }
+ #dot{
+     font-size: 10px;
+     color: orangered;
+     position: absolute;
+     bottom: 7%;
+     left: 2%;
+ }
+ #arrow{
+     font-size: 50px;
+     position: absolute;
+     bottom: 5%;
+     left: 50%;
+     color: black;
+ }
+ #text{
+     font-size: 17px;
+     color: black;
+     position: absolute;
+     bottom: 2%;
+     right: 2%;
+     transform: translate(-50%, -50%);
+ }
+ #gap{
+     justify-content: space-evenly;
+     padding: 0px 50px;
+ }
+ #icon1{
+     font-size: 12px;
+     position: absolute;
+     bottom: 5%;
+     right: 10%;
+     transform: translate(-50%, -50%);
+     justify-content: right;
+     justify-content: space-between;
+     color:black;
+ 
+ }
+ #icon2{
+     font-size: 12px;
+     position: absolute;
+     bottom: 5%;
+     right: 9%;
+     transform: translate(-50%, -50%);
+     justify-self: center;
+     justify-content: space-between;
+ }
+ #icon3{
+     font-size: 12px;
+     position: absolute;
+     bottom: 5%;
+     right: 8%;
+     transform: translate(-50%, -50%);
+     justify-content: left;
+     
+ }
